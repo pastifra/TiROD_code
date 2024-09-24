@@ -1,0 +1,31 @@
+Epoch:25
+mAP: 0.5918928276908336
+AP_50: 0.8911241211251246
+AP_75: 0.6871483560666715
+AP_small: 0.32321084428987845
+AP_m: 0.6106719939048827
+AP_l: 0.6875669363091325
+| class          | AP50   | mAP   | class        | AP50   | mAP   |
+|:---------------|:-------|:------|:-------------|:-------|:------|
+| bag            | 93.0   | 74.0  | bottle       | 83.9   | 52.0  |
+| cardboard box  | 78.7   | 53.2  | chair        | 89.6   | 58.4  |
+| potted plant   | 97.4   | 53.9  | traffic cone | 97.3   | 61.7  |
+| trashcan       | 83.8   | 61.1  | ball         | nan    | nan   |
+| broom          | nan    | nan   | garden hose  | nan    | nan   |
+| bucket         | nan    | nan   | bycicle      | nan    | nan   |
+| gardening tool | nan    | nan   |              |        |       |Epoch:50
+mAP: 0.718704206448506
+AP_50: 0.9285104337807558
+AP_75: 0.8123658591039888
+AP_small: 0.42090024967409023
+AP_m: 0.7504233262242933
+AP_l: 0.8360010588511464
+| class          | AP50   | mAP   | class        | AP50   | mAP   |
+|:---------------|:-------|:------|:-------------|:-------|:------|
+| bag            | 95.8   | 77.4  | bottle       | 88.5   | 67.7  |
+| cardboard box  | 82.6   | 64.1  | chair        | 90.5   | 72.2  |
+| potted plant   | 99.9   | 67.4  | traffic cone | 99.1   | 75.5  |
+| trashcan       | 93.6   | 78.8  | ball         | nan    | nan   |
+| broom          | nan    | nan   | garden hose  | nan    | nan   |
+| bucket         | nan    | nan   | bycicle      | nan    | nan   |
+| gardening tool | nan    | nan   |              |        |       |
