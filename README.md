@@ -28,7 +28,7 @@ The dataset defines 10 distinct CL tasks, which are determined by the rover's ex
 
 For more details, please refer to our [paper](#citation)
 
-Please download the dataset and the annotations from [here]()
+Please download the dataset and the annotations from [here](https://zenodo.org/records/13834550)
 
 Data is structured as follows:
 ```
