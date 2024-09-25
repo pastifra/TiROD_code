@@ -154,11 +154,12 @@ If you find this project useful in your research, please add a star and cite us 
 ## Related works
 
 ```BibTeX
-@inproceedings{pastiLD,
+@inproceedings{pasti2024LatentDistillation,
   title={Latent Distillation for Continual Object Detection at the edge.},
   author={Pasti, Francesco and Ceccon, Marina and Dalle Pezze, Davide and Paissan, Francesco and Farella, Elisabetta and Susto, Gian Antonio and Bellotto, Nicola},
-  booktitle={European conference on computer vision},
+  booktitle={ECCV 2024 Workshops},
   year={2024},
+  publisher={Springer}
 }
 ```
 https://github.com/pastifra/Continual_Nanodet
