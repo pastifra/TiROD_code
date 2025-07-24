@@ -107,8 +107,6 @@ You can test the TiROD benchmark with the CL method reported in our [paper](#cit
 
 **KMeans Replay**
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tiny-robotics-dataset-and-benchmark-for/tirod-on-tirod)](https://paperswithcode.com/sota/tirod-on-tirod?p=tiny-robotics-dataset-and-benchmark-for)
-
 ```python TiROD_KMREP_ResNet.py --TiROD_task <choose a name> --cfg cfg/TiROD.yml --gpu <the GPU ID>```
 
 **Latent Replay**
