@@ -139,8 +139,6 @@ You can test the TiROD benchmark with the CL method reported in our [paper](#cit
 
 ## Citation
 
-If you find this project useful in your research, please add a star and cite us 😊 
-
 ```BibTeX
 @misc{pasti2024tinyroboticsdatasetbenchmark,
       title={Tiny Robotics Dataset and Benchmark for Continual Object Detection}, 
