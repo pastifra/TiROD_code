@@ -26,6 +26,11 @@ TiROD is a benchmark designed to evaluate the performance of Continual Learning 
 
 The dataset defines 10 distinct CL tasks, which are determined by the rover's exploration of 5 unique environments under two lighting conditions: high and low illumination. These tasks are labeled from d1_h (Domain 1, High illumination) to d5_l (Domain 5, Low illumination). The first two tasks take place in indoor settings, while the remaining tasks occur outdoors, where the terrain becomes increasingly rugged.
 
+We also provide fog and rainy domains augmentations for each domain under high illumination.
+We augmented the images using the Albumentations library.
+
+To ensure transperency and quality, we provide annotated previews of all the images with bounding boxes and categories in the folder "Annotated Previews".
+
 For more details, please refer to our [paper](#citation)
 
 Please download the dataset and the annotations from [here](https://zenodo.org/records/13834550)
@@ -33,6 +38,7 @@ Please download the dataset and the annotations from [here](https://zenodo.org/r
 Data is structured as follows:
 ```
 TiROD
+├── Annotated Previews
 ├── Domain1
 │   ├── High
 │   │   ├── annotations
