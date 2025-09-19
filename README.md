@@ -67,7 +67,7 @@ TiROD
 
 We benhmarked both regularization based CL apporaches and replay based CL approaches.
 
-The figure in the left depicts the overall mAP performances in the series of 10 CL tasks defined by TiROD.
+The figure in the left depicts the overall mAP performances in the series of 10 CL tasks defined by the TiROD Cross Domain Scenario.
 
 ****
 # CL benchmark
