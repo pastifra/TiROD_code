@@ -27,6 +27,8 @@ from nanodet.util import (
 )
 
 #Function to create the task configuration file required for training
+# NB THIS IS VALID FOR THE CROSS-DOMAIN SCENARIO
+# FOR THE OTHER SCENARIOS ORDERS, REARRANGE BASED ON THE DATASET FOLDERS AND ORDERS REPORTED IN THE PAPER
 def create_exp_cfg(yml_path, task, tirod_task):
     #Load the YAML file
     with open(yml_path, 'r') as file:
