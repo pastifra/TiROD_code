@@ -33,7 +33,7 @@ We augmented the images using the Albumentations library.
 
 For more details, please refer to our [paper](#citation)
 
-Please download the dataset and the annotations from [here](https://zenodo.org/records/13834550)
+Please download the dataset and the annotations from [here](https://zenodo.org/records/19102416)
 
 Data is structured as follows:
 ```
