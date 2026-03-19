@@ -114,7 +114,8 @@ args = parser.parse_args()
 
 
 val_datasets = []
-
+# NB THIS IS VALID FOR THE CROSS-DOMAIN SCENARIO
+# FOR THE OTHER SCENARIOS ORDERS, REARRANGE BASED ON THE DATASET FOLDERS AND ORDERS REPORTED IN THE PAPER
 #Start CL experience
 for task in range (1, 11):
     

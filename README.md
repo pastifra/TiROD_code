@@ -25,11 +25,11 @@ This README reports implementations details of the TiROD dataset and benchmark t
 TiROD is a benchmark designed to evaluate the performance of Continual Learning (CL) algorithms for Object Detection, using data collected by a small robotic rover.
 
 The dataset defines 10 distinct CL tasks, which are determined by the rover's exploration of 5 unique environments under two lighting conditions: high and low illumination. These tasks are labeled from d1_h (Domain 1, High illumination) to d5_l (Domain 5, Low illumination). The first two tasks take place in indoor settings, while the remaining tasks occur outdoors, where the terrain becomes increasingly rugged.
+Those 10 CL tasks are part of the Cross-Domain Scenario
 
 We also provide fog and rainy domains augmentations for each domain under high illumination.
+These augmented image are part of the Intra-Domain Scenario.
 We augmented the images using the Albumentations library.
-
-To ensure transperency and quality, we provide annotated previews of all the images with bounding boxes and categories in the folder "Annotated Previews".
 
 For more details, please refer to our [paper](#citation)
 
@@ -60,20 +60,19 @@ TiROD
     └── README.md
 ```
 
-## Results
+## Cross-Domain Scenario Results
 <div align="center">
   <img src="imgs/benchmark.png" width="600" />
 </div>
 
-We benhmarked both regularization based CL apporaches and replay based CL approaches.
-
-The figure in the left depicts the overall mAP performances in the series of 10 CL tasks defined by the TiROD Cross Domain Scenario.
+We benchmarked both regularization based CL approaches and replay based CL approaches.
+The figure in the left depicts the overall mAP performances in the series of 10 CL tasks defined by the TiROD Cross-Domain Scenario.
 
 ****
 # CL benchmark
 
-## Install Nanodet
-As our work is based on the Nanodet detector, you need to first install it in an environment. 
+## Install NanoDet
+As our work is based on the NanoDet detector, you need to first install it in an environment. 
 To do so, refer to [nanodetDocs/README.md](nanodetDocs/README.md)
 
 ## Setup Config file
@@ -90,10 +89,10 @@ To do so:
 
 To replicate the results of our paper, just change the img and ann path to the folders where you downloaded your data.
 
-You can also change the Nanodet architecture by taking inspiration from other configs.
+You can also change the NanoDet architecture by taking inspiration from other configs.
 To do so please refer to [nanodetDocs/README.md](nanodetDocs/README.md) and update the cfg file based on your needs.
 
-You can test the TiROD benchmark with the CL method reported in our [paper](#citation) (from eclod folder and with the created environment):
+You can test the TiROD Cross-Domain benchmark with the CL method reported in our [paper](#citation) (from eclod folder and with the created environment):
 
 **Fine-Tuning**
 
@@ -137,13 +136,15 @@ You can test the TiROD benchmark with the CL method reported in our [paper](#cit
 
 ****
 
+For the Tirod Intra Domain benchmark you can run the same experiments above making sure to change the paths in the ```create_exp_cfg()``` function
+
 ## Citation
 
 ```BibTeX
-@misc{pasti2024tinyroboticsdatasetbenchmark,
-      title={Tiny Robotics Dataset and Benchmark for Continual Object Detection}, 
+@misc{pasti2026tirod,
+      title={TiROD: Tiny Robotics Dataset and Benchmark for Continual Object Detection}, 
       author={Francesco Pasti and Riccardo De Monte and Davide Dalle Pezze and Gian Antonio Susto and Nicola Bellotto},
-      year={2024},
+      year={2026},
       eprint={2409.16215},
       archivePrefix={arXiv},
       primaryClass={cs.RO},
