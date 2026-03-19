@@ -7,7 +7,7 @@
 
 </div>
 
-* 🗺 **Multiple Domains**: 5 fifferent domains indoor and outdoor, multiple illumination conditions 
+* 🗺 **Multiple Domains**: 5 different domains indoor and outdoor, multiple illumination conditions 
 * 🤖 **Tiny Robotics**: Data collected with a real Tiny Robotic platform, equipped with ESP32-CAM
 * 🌐 **Official Website**: Official website of the Dataset at this [link](https://pastifra.github.io/TiROD/)
 
