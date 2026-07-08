@@ -33,7 +33,7 @@ We augmented the images using the Albumentations library.
 
 For more details, please refer to our [paper](#citation)
 
-Please download the dataset and the annotations from [here](https://zenodo.org/records/19102416)
+Please download the dataset and the annotations from [Zenodo](https://zenodo.org/records/19102416) or [Hugging Face](https://huggingface.co/datasets/pastifra/TiROD)
 
 Data is structured as follows:
 ```
